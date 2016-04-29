@@ -1,0 +1,21 @@
+﻿body {
+	margin: 0;
+	padding: 0;
+}
+
+.main {
+	height: 100%;
+	width: 500px;
+	text-align: center;
+	margin-left: 400px;
+	font-family: Arial, Tahoma;
+}
+
+img {
+	height: 350px;
+	width: 450px;
+}
+
+.dark {
+	font-weight: bold;
+}
