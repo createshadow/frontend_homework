@@ -4,11 +4,10 @@
 }
 
 .main {
-	height: 100%;
 	width: 500px;
 	text-align: center;
 	margin-left: 400px;
-	font-family: Arial, Tahoma;
+	font-family: 'Arial', 'Tahoma';
 }
 
 img {
