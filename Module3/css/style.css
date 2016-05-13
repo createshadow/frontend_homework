@@ -1,0 +1,80 @@
+.wrapper {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.conteiner {
+    box-shadow: 2px 4px 5px 0px rgba(0, 0, 0, 0.3);
+    width: 1060px;
+    margin: 0 auto;
+}
+
+header {
+    width: 967px;
+    height: 120px;
+}
+
+.main_menu {
+    background: linear-gradient(0deg, #444343 0%, #5e5e5e 100%);
+    width: 966px;
+    height: 40px;
+}
+
+.main_menu ul {
+    width: 481px;
+}
+
+.main_menu ul li {
+    width: 101px;
+    display: inline-block;
+}
+
+.main_menu a {
+    font-family: OpenSans;
+    color: #ffffff;
+    font-size: 14.67px;
+    font-weight: 400;
+    line-height: 29.333px;
+    text-align: justify;
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
+}
+.main_menu a:hover {
+    color: black;
+    border: 1px solid blue;
+}
+
+
+/*.main_content {
+    width: 966px;
+    height: 580px;
+}
+
+.left_sidebar {
+    width: 240px;
+    height: 240px;
+    position: absolute;
+    ;
+}
+
+.left_sidebar ul a {
+    display: inline-block;
+    font-family: OpenSans;
+    color: #2c2b2b;
+    font-size: 13.33px;
+    /* Приближение из-за подстановки шрифтов */
+
+
+/* font-weight: 400;
+    line-height: 37.333px;
+    /* Приближение из-за подстановки шрифтов */
+
+
+/*text-align: left;
+    text-indent: 13.333px;
+}
+
+.content {
+    width: 678px;
+    height: 580px;
+    position: absolute;
+} *\
