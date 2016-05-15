@@ -1,0 +1,41 @@
+body {
+	background-image: url(../img/background.jpg);
+ 	background-repeat: no-repeat;
+ 	background-size: cover;
+}
+
+.wrapper {
+ 	display: block;
+ 	width: 1018px;
+	height: 991px;
+	border: 1px solid white;
+	box-shadow: 13px 0px 34px -9px rgba(0,0,0,0.66);
+	background-color: white;
+	margin: 0 auto;
+}
+
+.main_content {
+	margin: auto;
+}
+
+.contacts {
+	padding: 5px;
+	width: 130px;
+	height: 67px;
+	display: inline-block;
+	font-family: Tahoma;
+	color:  #128aa7;
+	font-size: 12px;
+	font-weight: 400;
+	text-align: left;
+	margin: auto;
+}
+
+.countries {
+	display: block;
+	margin: auto;
+}
+
+.countries a {
+	display: inline-block;
+}
