@@ -1,0 +1,62 @@
+body{
+    font-family: 'Tahoma', sans-serif;
+	margin: auto;
+}
+
+.wrapper {
+	background-color: #064e8b;
+  	width: 1215px;
+	margin: auto;
+	margin-top: 40px;
+	white-space: nowrap;
+}
+
+.header {
+	height: 36px;
+	/*opacity: 0.2;*/
+}
+
+.menu {
+    height: 36px;
+    display: block;
+    float: right;
+    margin-right:20px;
+}
+
+.menu ul {
+    height: 100%;
+}
+
+.menu li {
+    display: inline-block;
+    height: 100%;
+    text-align: center;
+    margin-top: 1px;
+}
+
+.menu li:last-child {
+    width: 191px;
+}
+
+.menu a {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    color: #60b5ed;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    height: 100%;
+    color: white;
+}
+
+.marker {
+    text-decoration: underline;
+}
+
+.main_content {
+	background: url("../img/background.jpg") no-repeat;
+	width: 1215px;
+	height: 1028px;	
+}

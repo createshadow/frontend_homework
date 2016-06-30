@@ -16,46 +16,50 @@ header {
 }
 
 .main_menu {
-    background: linear-gradient(0deg, #444343 0%, #5e5e5e 100%);
+    background-image: linear-gradient(0deg, #454444 0%, #5e5e5e 100%);
     width: 966px;
-    height: 40px;
     margin-top: 15px;
 }
 
 .main_menu ul {
     width: 481px;
+
 }
 
 .main_menu ul li {
-    width: 101px;
+    padding: 10px 20px;
     display: inline-block;
+    border: 1px solid transparent;
 }
 
 .main_menu a {
-    font-family: OpenSans;
+    font-family: 'OpenSans';
     color: #ffffff;
-    font-size: 14.67px;
+    font-size: 14px;
     font-weight: 400;
-    line-height: 29.333px;
+    line-height: 29px;
     text-align: justify;
     text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
     text-decoration: none;
-    height: 40px;
+    padding: 10px;
     text-align: center;
     display: block;
 }
 
-.main_menu a:hover {
-    background-color: black;
-    border: 1px solid lightgrey;
+.main_menu ul li:hover {
+    background-image: linear-gradient(0deg, #4a4a4a 0%, #2e2e2e 100%); 
+    border: 1px solid #838383;
 }
 
+.main_menu li:first-child {
+    padding: 10px 20px;
+}
 
 .main_content {
     width: 966px;
     height: 580px;
     display: block;
-    margin: auto;
+    margin: 40px auto;
 }
 
 .left_sidebar {
@@ -63,7 +67,6 @@ header {
     width: 240px;
     float: left;
     position: relative;
-    overflow: hidden;
 }
 
 .left_sidebar li {
@@ -90,13 +93,13 @@ ul.menu>li:hover {
 
 .left_sidebar a {
     display: block;
-    font-family: OpenSans;
+    font-family: 'OpenSans';
     color: #2c2b2b;
-    font-size: 13.33px;
+    font-size: 13px;
     font-weight: 400;
-    line-height: 37.333px;
+    line-height: 37px;
     text-align: left;
-    text-indent: 13.333px;
+    text-indent: 13px;
     text-decoration: none;
     border: 1px solid lightgrey;
 }
@@ -104,7 +107,7 @@ ul.menu>li:hover {
 .left_sidebar a:hover {
     border: 1px solid grey;
     background-color:  #f9f9f9;
-    width: 238px;
+/*    width: 238px;*/
     height: 37px;
     padding-left: 12px;
 }
@@ -128,11 +131,11 @@ ul.menu>li:hover {
 }
 
 .text {
-    font-family: OpenSans;
+    font-family: 'OpenSans';
     color:  #2c2b2b;
-    font-size: 13.33px;
+    font-size: 13px;
     font-weight: 400;
-    line-height: 21.333px;
+    line-height: 21px;
     text-align: left;
     float: right;
     width: 640px;
@@ -158,7 +161,7 @@ ul.menu>li:hover {
 }
 
 .footer a {
-    font-family: OpenSans;
+    font-family: 'OpenSans';
     color:  #2c2c2c;
     font-size: 13.33px;
     font-weight: 400;
@@ -174,7 +177,7 @@ ul.menu>li:hover {
 
 .sometext {
     width: 150px;
-    font-family: OpenSans;
+    font-family: 'OpenSans';
     color:  #2c2c2c;
     font-size: 13.33px;
     font-weight: 400;
